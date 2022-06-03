@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  *  * main - assign a random number to the variable & each time it is executed
  *   * if the number is greater than 0: is positive, if the number is 0: is zero
@@ -10,6 +11,7 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
