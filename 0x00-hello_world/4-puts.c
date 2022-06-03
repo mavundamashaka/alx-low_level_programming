@@ -2,9 +2,9 @@
 
 /**
  *
- *  * Description: main - Prints out a string to stdout.
+ *  * main - main block
  *
- *   * Return: 0 if success.
+ *   * Return: 0
  *
  *    */
 
