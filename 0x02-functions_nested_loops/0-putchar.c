@@ -7,8 +7,9 @@
  */
 int main(void)
 {
-	char x[9] = "_putcher";
+	char x[9] = "_putchar";
 	int i;
+
 	for (i = 0; i < 8; i++)
 	{
 		_putchar(x[i]);
@@ -18,4 +19,3 @@ int main(void)
 
 	return (0);
 }
-
