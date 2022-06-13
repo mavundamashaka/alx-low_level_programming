@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * function: that returns the length of a string.
+ * function: prototype
+ * description: eturns the length of a string
  * @s: pointer to an string
  * Return: int
  */
