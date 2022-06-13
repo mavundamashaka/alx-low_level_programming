@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * function: prototype
- * description: eturns the length of a string
- * @s: pointer to an string
+ * _strlen - Fucntion prototype
+ * Description: Computes the length of a string
+ * @s: pointer to a string
  * Return: int
  */
 
