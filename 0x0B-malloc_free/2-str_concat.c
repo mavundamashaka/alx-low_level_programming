@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
-* _strlen - returns the length of a string.
-* @s: string whose length should be return
-* Return: (int) the length of the string.
-*/
+ * _strlen - returns the length of a string.
+ * @s: string whose length should be return
+ * Return: (int) the length of the string.
+ */
 
 int _strlen(char *s)
 {
 	int i = 0;
-	
+
 	while (*s)
 	{
 		i++;
 		s++;
 	}
-	
+
 	return (i);
 }
 
@@ -37,7 +37,7 @@ char *str_concat(char *s1, char *s2)
 		len += _strlen(s2);
 
 	new_str = malloc(sizeof(char) * (len + 1));
-	
+
 	if (!new_str)
 		return (new_str);
 	if (s1)
@@ -61,5 +61,6 @@ char *str_concat(char *s1, char *s2)
 			i++;
 		}
 	}
+
 	return (new_str);
 }
